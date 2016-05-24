@@ -10,8 +10,13 @@
     <link rel="icon" href="../../favicon.ico">
 
     <title>SATO TEAM 官方网站</title>
-   <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
+   	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="http://satoteam.github.io/css/themes/navbar-static-top.css" rel="stylesheet">
+    <!-- slick 轮播-->
+    <link rel="stylesheet" type="text/css" href="libs/slick-1.6.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="libs/slick-1.6.0/slick-theme.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/app.css"/>
   </head>
 
   <body>
@@ -39,8 +44,13 @@
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-	
-	<br>
+
+	<!-- 轮播 -->
+	<div id="carousel">
+		<img src="img/carousel/1.jpg" alt="">
+		<img src="img/carousel/2.jpg" alt="">
+	</div>
+
 	<hr>
     <footer class="footer ">
       <div class="container">
@@ -90,5 +100,13 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
     <script src="http://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs/slick-1.6.0/slick.js"></script>
+    <script>
+    	$("#carousel").slick({
+    		dots: true,
+    		arrows: true,
+    		autoplay: true
+    	});
+    </script>
   </body>
 </html>
