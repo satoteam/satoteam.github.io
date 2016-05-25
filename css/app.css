@@ -1,9 +1,20 @@
 
-/*去除菜单与内容的距离*/
+/* 去除菜单与内容的距离 */
 .navbar{
 	margin-bottom: 0px;
 }
 
+/* div内容居中*/
 .div-center{
 	text-align:center;
+}
+/* 去除巨幕下边框 */
+.jumbotron{
+	margin-bottom: 1px;
+	border-bottom-color: #FFF;
+}
+/* 页脚样式 */
+.footer-color{
+	background-color: #333;
+	color: #777;
 }
