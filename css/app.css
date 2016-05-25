@@ -4,10 +4,19 @@
 	margin-bottom: 0px;
 }
 
+/* div内容居左*/
+.div-left{
+	text-align:left;
+}
 /* div内容居中*/
 .div-center{
 	text-align:center;
 }
+/* div内容居右*/
+.div-right{
+	text-align:right;
+}
+
 /* 去除巨幕下边框 */
 .jumbotron{
 	margin-bottom: 1px;
