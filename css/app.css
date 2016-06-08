@@ -44,6 +44,9 @@
 	padding-bottom:27px;
 }
 
+.img-width{
+	width: 100%;
+}
 
 /* 去除巨幕下边框 */
 .jumbotron{
