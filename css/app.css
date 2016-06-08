@@ -4,6 +4,25 @@
 	margin-bottom: 0px;
 }
 
+.navbar-inverse{
+	background-color:#171F26;
+	border-color:#171F26;
+}
+.navbar-inverse .navbar-brand{
+	color:#fff;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:focus,
+.navbar-inverse .navbar-nav>.active>a:hover{
+	color:#fff;
+	background-color:#171F26;
+}
+
+.container-top{
+    padding-top: 70px;
+}
+
 /* div内容居左*/
 .div-left{
 	text-align:left;
@@ -17,13 +36,18 @@
 	text-align:right;
 }
 
+.list-news-bottom{
+	padding-bottom:27px;
+}
+
+
 /* 去除巨幕下边框 */
 .jumbotron{
 	margin-bottom: 1px;
 	border-bottom-color: #FFF;
 }
 /* 页脚样式 */
-.footer-color{
-	background-color: #333;
-	color: #777;
+.footer{
+	background-color: #171F26;
+	color: #9EA1A4;
 }
